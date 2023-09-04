@@ -1,11 +1,12 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { UsersFromServer } from "./components/Example/UsersFromServer";
 
 function App() {
+  
   return (
-    <>
-      <Example />{" "}
-    </>
+    <div>
+     <UsersFromServer/>
+    </div>
   );
 }
 
